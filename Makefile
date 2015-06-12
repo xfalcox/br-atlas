@@ -46,8 +46,7 @@ tmp/%/: zip/%.zip
 	rm -rf $(basename $@)
 	mkdir -p $(dir $@)
 	unzip -d tmp $<
-	$(eval STATE := $(dir $@)$(shell echo $* | tr '[:lower:]' '[:upper:]'))
-	[ -d $(STATE) ] && mv -f $(STATE) $@
+	rename 'y/A-Z/a-z/' *
 
 # -- Generate GeoJSON files
 
