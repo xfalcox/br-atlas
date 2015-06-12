@@ -63,7 +63,7 @@ In addition, you can run ``make topo/br-counties.json`` for generating
 a Brazil map with counties and ``make topo/br-states.json`` for generating
 a Brazil map with states. Similarly, you may generate files for
 specific states, for example:
-``make topo/mg-counties.json`` or ``make topo/mg-states.json``
+``make topo/mg-counties.json`` or ``make topo/mg-state.json``
 for generating maps of Minas Gerais state.
 
 Feel free to contribute and add new types of maps.
